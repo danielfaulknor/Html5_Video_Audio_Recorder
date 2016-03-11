@@ -149,7 +149,7 @@ var Whammy = (function(){
                     "id": 0x1f43b675, // Cluster
                     "data": [
                         {  
-                            "data": clusterTimecode,
+                            "data": Math.round(clusterTimecode),
                             "id": 0xe7 // Timecode
                         }
                     ].concat(clusterFrames.map(function(webp){
